@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "Raleway", sans-serif;
+
+}
+h1, h2{
+    font-weight: 500;
+}
+
+p{
+    font-weight: 300;
+}
+nav{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+}
+header {
+    background-color: black;
+    background-image: url("../img/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom:55% ;
+
+
+}
+
+main {
+    color: white;
+    background-color: black;
+    p {
+        font-weight: 300;
+    }
+}
+
+footer {
+    background-color: #1E1A13;
+    color: white;
+    padding: 50px;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}
+.section1 img, div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40%;
+    height: 30%;
+
+}
+
+.section1 {
+    padding-left: 20%;
+    background-color: #000000;
+    div {
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    img {
+        width: 30%;
+        height: 20%;
+        margin: 3em;
+    }
+}
+
+.section2 {
+    padding: 0px;
+    background-color: #1E1A13;;
+    h2{
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 50px;
+        font-size: 40px;
+    }
+    div{
+        text-align: center;
+        display: inline-block;
+        width: 1000px;
+        padding-left: 80px;
+        padding-bottom: 20px;
+        div{
+            margin-left: 10px;
+            width: 120px;
+            vertical-align: middle;
+            text-align: center;
+            display: inline-block;
+            p{
+                font-size: 20px;
+            }
+            i{
+                margin:10px;
+                padding:20px;
+            }
+        }
+    }
+}
+.section3 {
+    background-color: #000000;
+    padding: 5em;
+    padding-left: 13%;
+
+    display: inline-block;
+    img {
+        padding-left: 20px;
+        width: 300px;
+        height: 200px;
+    }
+}
